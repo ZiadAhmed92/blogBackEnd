@@ -19,6 +19,7 @@ export const signUp = async (req, res) => {
         //     await userModel.insertMany({ name, email, password: hash })
         //     res.json({ message: "success" })
         // });
+        res.json({ message: "success" })
     }
 
 }
